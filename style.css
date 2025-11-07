@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #3b2b23, #5a3e2b);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #ffcc7e;
+}
+
+/* Hero */
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero span {
+  color: #ffcc7e;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 25px;
+}
+
+* Buttons */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn, .btn-outline {
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn {
+  background: #ffcc7e;
+  color: #3b2b23;
+}
+.btn:hover {
+  background: #e6b76b;
+}
+
+.btn-outline {
+  border: 2px solid #ffcc7e;
+  color: #ffcc7e;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #ffcc7e;
+  color: #3b2b23;
+}
+
+/* Sections */
+section {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: #3b2b23;
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill {
+  background: #fff;
+  border: 2px solid #ffcc7e;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+/* Projects */
+.project {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+#contact p {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background: #3b2b23;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+}
